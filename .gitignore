@@ -1,0 +1,16 @@
+*.exe
+*.dll
+*.log
+.env
+.DS_Store
+.eslintcache
+node_modules
+dist-jsr
+dist-libs
+dist-npm
+
+/multireli
+start-runtime
+tests-runtime
+relinter.json
+relinter-test-*.ts

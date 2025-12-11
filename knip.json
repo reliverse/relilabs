@@ -1,0 +1,26 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": [
+    "eslint.config.js",
+    "build.config.ts",
+    "addons/**/*.ts",
+    "src/main.ts",
+    "src/libs/**/*.ts"
+  ],
+  "project": [
+    "eslint.config.js",
+    "build.config.ts",
+    "addons/**/*.ts",
+    "src/**/*.ts"
+  ],
+  "ignoreExportsUsedInFile": true,
+  "ignore": [
+    "tests-runtime/",
+    "dist-jsr/",
+    "dist-npm/",
+    "dist-libs/",
+    "relinter-test.ts"
+  ],
+  "ignoreBinaries": ["code", "db:push"],
+  "ignoreDependencies": ["octokit", "ora", "querystring"]
+}

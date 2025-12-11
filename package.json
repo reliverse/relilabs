@@ -1,0 +1,9 @@
+{
+  "name": "@reliverse/relilabs",
+  "author": "reliverse",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["cli"],
+  "description": "relilabs (aka reliverse labs) — an experimental all-in-one replacement for the entire js/ts ecosystem, dev environment, and more."
+}

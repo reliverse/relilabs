@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["**/*.ts", "reset.d.ts", "eslint.config.js", "reliverse.ts", ".config/dler.ts", ".config/relinka.ts"],
+  "exclude": [
+    "node_modules",
+    "dist-jsr",
+    "dist-npm",
+    "dist-libs",
+    "tests-runtime",
+    "start-runtime"
+  ]
+}
